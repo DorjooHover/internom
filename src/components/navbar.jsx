@@ -127,6 +127,7 @@ const Navbar = (props) => {
                               <BiUser />
                          </LinkItem>
                     </Stack>
+                    {/* <ThemeToggleButton /> */}
                     <Box
                          align="right"
                          display={{
@@ -134,8 +135,6 @@ const Navbar = (props) => {
                               md: "none",
                          }}
                     >
-                         {/* <ThemeToggleButton /> */}
-
                          <Box
                               display={{
                                    base: "inline-block",

@@ -3,6 +3,7 @@ import Fonts from "../src/components/fonts";
 import { AnimatePresence } from "framer-motion";
 import Chakra from "../src/components/chakra";
 import "../styles/globals.css";
+import "../styles/swiper.scss";
 if (typeof window !== "undefined") {
      window.history.scrollRestoration = "manual";
 }

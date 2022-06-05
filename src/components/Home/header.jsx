@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCreative, Pagination, Autoplay } from "swiper";
-
+// import "./header.css";
 const HomeHeader = () => {
      return (
           <>
@@ -31,7 +31,7 @@ const HomeHeader = () => {
                          delay: 2500,
                          disableOnInteraction: false,
                     }}
-                    className="mySwiper6"
+                    className="home_header_swiper"
                >
                     <SwiperSlide>Slide 1</SwiperSlide>
                     <SwiperSlide>Slide 2</SwiperSlide>
